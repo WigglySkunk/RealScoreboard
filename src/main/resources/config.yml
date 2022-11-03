@@ -29,48 +29,13 @@ Config:
         Boards:
           Board1:
             Title:
-              - '&bRealScoreBoard'
-              - '&6> &9RealScoreBoard &6<'
-              - '&a>&6> &bRealScoreBoard &6<&a<'
-              - '&6> &9RealScoreBoard &6<'
+              - 'Stats'
+           
             Lines:
               - '%blank%'
-              - ' &aSpecial Permission Board'
-              - '%blank%'
-      default:
-        Switch-Timer: 35
-        Boards:
-          Board1:
-            Title:
-              - '&bRealScoreBoard'
-              - '&6> &9RealScoreBoard &6<'
-              - '&a>&6> &bRealScoreBoard &6<&a<'
-              - '&6> &9RealScoreBoard &6<'
-            Lines:
-              - '%blank%'
-              - ' &7Name: &f%playername% &8| &f%ping%'
-              - ' &f%day% &8| &f%time%'
-              - ' &7Money: &f%money% &8| &7XP: &f%xp%'
-              - ' &7Location:'
-              - ' &fX %x% Y %y% Z %z%'
-              - '%blank%'
-              - '  &fThis is Board &e#1'
-              - '%blank%'
-              - ' &7RAM: &f%ram%'
-              - ' &7Online: &f%online%&8/&f%maxplayers%'
-              - '%blank%'
-          Board2:
-            Title:
-              - '&bStatistics &aBoard'
-              - '&aStatistics &bBoard'
-            Lines:
-              - '%blank%'
-              - ' &7Stats'
-              - '  &fKills: %kills% &7| &fKD: %kd%'
-              - '  Mob Kills: %mobkills%'
-              - '  Deaths: %deaths%'
-              - '  Jumps: %jumps%'
-              - '%blank%'
-              - ' &fThis is Board &e#2'
-              - '%blank%'
+              - '%time%'
+              - Mob Kills: '%mobkills%'
+              - $: '%money%'
+              - '%group%'
+
 Version: 12
