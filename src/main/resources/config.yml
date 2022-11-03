@@ -29,14 +29,14 @@ Config:
         Boards:
           Board1:
             Title:
-              - '&bRealScoreBoard'
-              - '&6> &9RealScoreBoard &6<'
-              - '&a>&6> &bRealScoreBoard &6<&a<'
-              - '&6> &9RealScoreBoard &6<'
+              - 'Stats'
+           
             Lines:
               - '%blank%'
-              - ' &aSpecial Permission Board'
-              - '%blank%'
+              - '%time%'
+              - Mob Kills: '%mobkills%'
+              - $: '%money%'
+              - '%group%'
       default:
         Switch-Timer: 35
         Boards:
